@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Compras</title>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <!-- Main significa que essa é a parte principal da página -->
+    <main>  
+
+        <!-- Imagem da lista -->
+         <img src="yuri.webp"> 
+              
+        <!-- Formulário -->
+        <form>                       
+            <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar"/>    <!-- TextArea-->
+            <button class="button-item" id="adicionar-item" type="button"> Salvar item</button> <!-- Botão -->
+        </form>
+
+        <!-- Mostrar os itens na lista -->
+        <div class="container-lista">
+            <h2>Lista de Compras</h2>
+            <hr/>
+            <ul id="lista-de-compras">
+                <p class="mensagem-lista-vazia"> Não há nenhum item na lista</p>
+            </ul>
+        </div>
+    
+    </main>
+</body>
+</html> 
